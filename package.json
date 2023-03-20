@@ -1,0 +1,28 @@
+{
+  "name": "kaamelott-ipsum-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "scripts": {
+    "build": "npx tsc && mkdir -p ./dist/assets/ && cp ./src/assets/* ./dist/assets/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {  
+    "kaamelorem": "./bin/index.js"  
+  },
+  "author": "Charles Gourdin",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "clipboardy": "2.3.0",
+    "commander": "^10.0.0",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.5",
+    "@types/node": "^18.15.3",
+    "typescript": "^5.0.2"
+  }
+}
