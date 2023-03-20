@@ -2,13 +2,13 @@
   "name": "kaamelott-ipsum-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "./bin/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "npx tsc && mkdir -p ./dist/assets/ && cp ./src/assets/* ./dist/assets/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {  
-    "kaamelorem": "./bin/index.js"  
+    "kaamelorem": "./dist/index.js"  
   },
   "author": "Charles Gourdin",
   "license": "ISC",
