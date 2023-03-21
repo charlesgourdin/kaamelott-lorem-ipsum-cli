@@ -2,6 +2,7 @@
   "name": "kaamelott-ipsum-cli",
   "version": "1.0.0",
   "description": "",
+  "keywords": ["cli", "kaamelot", "lorem ipsum"],
   "main": "./dist/index.js",
   "scripts": {
     "build": "npx tsc && mkdir -p ./dist/assets/ && cp ./src/assets/* ./dist/assets/",
