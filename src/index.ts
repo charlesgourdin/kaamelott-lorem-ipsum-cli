@@ -159,7 +159,7 @@ async function generateLoremIpsum() {
         }
 
         console.log("\n")
-        console.log(chalk.bgRedBright.bold(figlet.textSync("Kaamelott Lorem Ipsum")));
+        console.log(chalk.bgRedBright.bold(figlet.textSync("Kaamelorem")));
         console.log("\n")
         console.log(chalk.dim(lorem))
 

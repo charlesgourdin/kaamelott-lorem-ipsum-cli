@@ -1,8 +1,14 @@
 {
   "name": "kaamelott-ipsum-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
-  "keywords": ["cli", "kaamelot", "lorem ipsum"],
+  "keywords": [
+    "cli",
+    "kaamelott",
+    "lorem",
+    "ipsum",
+    "lipsum"
+  ],
   "main": "./dist/index.js",
   "scripts": {
     "build": "npx tsc && mkdir -p ./dist/assets/ && cp ./src/assets/* ./dist/assets/",
@@ -13,6 +19,10 @@
   },
   "author": "Charles Gourdin",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charlesgourdin/kaamelott-lorem-ipsum-cli"
+  },
   "dependencies": {
     "chalk": "4.1.2",
     "clipboardy": "2.3.0",
